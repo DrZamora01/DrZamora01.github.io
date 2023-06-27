@@ -8,7 +8,7 @@ published: true
 labels:
   - python 
   - bootstrap
-  -sqlite
+  - sqlite
 summary: "The Payroll Management System with Bootstrap is a web application developed to efficiently manage payroll data. It incorporates proper styling, navigation, and database querying to create a user-friendly interface. 
 This system allows users to view weekly pay calculations for employees based on department and update the hours worked for individual employees."
 ---
