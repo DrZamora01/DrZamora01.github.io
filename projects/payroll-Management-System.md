@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-//image: img/cotton/cotton-square.png
+image: img/payroll.png
 title: "payroll-Management-System"
 date: 2023-06-27
 published: true
@@ -13,7 +13,7 @@ summary: "The Payroll Management System with Bootstrap is a web application deve
 This system allows users to view weekly pay calculations for employees based on department and update the hours worked for individual employees."
 ---
 
-//<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/payroll.png">
 
 
 
