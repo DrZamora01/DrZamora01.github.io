@@ -1,0 +1,140 @@
+{
+  "basics": {
+    "name": "Diana Zamora",
+    "label": "Student",
+    "picture": "https://github.com/DrZamora01.png",
+    "email": "dzamora0002@kctcs.edu",
+    "phone": "000-000-0000",
+    "website": "https://DrZamora01.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Louisville. I expect to graduate in Fall, 2025.",
+    "location": {
+      "address": "",
+      "postalCode": "40212",
+      "city": "Louisville",
+      "countryCode": "USA",
+      "region": "Kentucky"
+    },
+    
+    "profiles": [
+      {
+        "network": "github",
+        "username": "DrZamora01",
+        "url": "http://github.com/DrZamora01"
+      },
+      {
+        "network": "linkedin",
+        "username": "dianaZamora123",
+        "url": "http://linkedin.com/in/dianazamora123"
+      }
+    ]
+  },
+  "interests": [
+    { "name": "Artificial Intelligence" },
+    { "name": "Data Science" },
+    { "name": "Web Development" },
+    { "name": "Cybersecurity" },
+    { "name": "Mobile App Development" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++","C#", "JavaScript", "Javascript", "Python" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Visual Studio", "Ubuntu", "Git/GitHub", "Cygwin", "Mongodb" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Jefferson Community and Techincal College, Louisville Kentucky",
+      "area": "Art and Science",
+      "studyType": "A.S.",
+      "startDate": "2017-1",
+      "endDate": "2021-1",
+      "courses": []
+    },
+    {
+      "institution": "Jefferson Community and Techincal College, Louisville Kentucky",
+      "area": "Computer Science (expected Summer, 2023)",
+      "studyType": "A.S.",
+      "startDate": "2022-1",
+      "endDate": "Present",
+      "courses": []
+    },
+    {
+      "institution": "University of Louisville, Louisville Kentucky",
+      "area": "Computer Science (expected Fall, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2023-6",
+      "endDate": "Present",
+      "courses": []
+    }
+  ],
+  "work": [
+    {
+      "company": "UPS - Louisville, KY",
+      "position": "Ramp/Airhandler/Deicer",
+      "startDate": "July-2016",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Efficiently lift and handle heavy packages to ensure safe transportation.",
+        "Thoroughly secure packages using appropriate methods and equipment.",
+        "Collaborate effectively with coworkers to maintain a smooth workflow.",
+        "Possess a valid driver's certification for operating company vehicles.",
+        "Demonstrated leadership skills as a floater, providing guidance and support to employees.",
+        "Regularly handle packages weighing over 70 pounds with care and precision."
+      ]
+    },
+    {
+      "company": "CERC (Committee for Employee Retention and Coaching) - UPS",
+      "position": "Co-Chair Assistant",
+      "startDate": "Feb-2023",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Assumed a leadership role as Co-Chair Assistant within the CERC program, supporting the Co-Chairs in their responsibilities.",
+        "Managed and organized meetings, ensuring smooth logistics and effective communication among committee members.",
+        "Collaborated with the Co-Chairs to develop meeting agendas and facilitate productive discussions.",
+        "Assisted in coordinating mentoring activities, matching veteran part-time employees with those in need of guidance.",
+        "Played a key role in tracking attendance and training issues among employees, identifying areas for improvement.",
+        "Assisted in the implementation of strategies to enhance employee retention and job satisfaction.",
+        "Acted as a point of contact for employees seeking guidance or assistance within the program.",
+        "Contributed to the development of resources and materials to support employee onboarding and retention efforts.",
+        "Provided input and feedback to the Co-Chairs regarding the progress and success of the retention program.",
+        "Demonstrated strong organizational skills in managing various administrative tasks related to the committee's operations."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "LYG (Louisville Youth Group) - Louisville, KY",
+      "website": "",
+      "position": "Counselor-Treasurer",
+      "startDate": "October 2015",
+      "endDate": "November 2018",
+      "summary": "",
+      "highlights": [
+        "Strategically managed inventory of donated supplies and implemented a budget for spending and donations to ensure efficient allocation of resources.",
+        "Collaborated closely with fellow volunteers to organize and coordinate engaging activities and events for youth, fostering a supportive and inclusive environment.",
+        "Fostered partnerships with other organizations to plan and execute successful community events, promoting awareness and acceptance.",
+        "Demonstrated compassion and sensitivity in providing support to individuals dealing with suicidal/self-mutilation tendencies, offering a nonjudgmental and empathetic approach.",
+        "Utilized strong problem-solving skills to effectively address emotional and physical conflicts, offering guidance and finding resolutions to promote a safe and nurturing environment for youth."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List Fall 2022",
+      "date": "December 2023",
+      "awarder": "Jefferson Community and Techincal College",
+      "summary": "Recognized for achieving exceptional academic performance during the Fall 2022 semester."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
