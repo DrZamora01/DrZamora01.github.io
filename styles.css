@@ -226,11 +226,7 @@ h1, h2 {
     align-items: center;
 }
 /* Sparkling Stars Animation */
-@keyframes sparkle {
-    0% { opacity: 0; transform: scale(0.5); }
-    50% { opacity: 1; transform: scale(1.2); }
-    100% { opacity: 0; transform: scale(0.5); }
-}
+
 
 .stars {
     position: absolute;
@@ -270,3 +266,33 @@ h1, h2 {
 .star:nth-child(13) { top: 97%; left: 97%; animation-delay: 3.8s; }
 .star:nth-child(14) { top: 99%; left: 1%; animation-delay: 4s; }
 .star:nth-child(15) { top: 3%; left: 99%; animation-delay: 4.2s; }
+
+/* Star Animation */
+/* Stars Container */
+#star-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Individual Star */
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: twinkle 5s infinite alternate;
+}
+
+/* Animation for Twinkling Effect */
+@keyframes twinkle {
+    0% { opacity: 0.3; transform: scale(0.5); }
+    50% { opacity: 1;transform: scale(1.2); }
+    100% { opacity: 0;transform: scale(0.5); }
+}

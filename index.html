@@ -7,7 +7,44 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="stars">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const numStars = 350; // Adjust for more or fewer stars
+            const starContainer = document.getElementById("star-container");
+        
+            for (let i = 0; i < numStars; i++) {
+                let star = document.createElement("div");
+                star.classList.add("star");
+        
+                // Random Position
+                let x = Math.random() * 100;
+                let y = Math.random() * 100;
+        
+                star.style.top = `${y}vh`;
+                star.style.left = `${x}vw`;
+        
+                // Random Size (variation in star brightness)
+                let size = Math.random() * 2 + 1; // Between 1px and 3px
+                star.style.width = `${size}px`;
+                star.style.height = `${size}px`;
+        
+                // Random Animation Duration (variation in twinkle speed)
+                let duration = Math.random() * 2 + 1; // Between 1s and 3s
+                star.style.animationDuration = `${duration}s`;
+        
+                starContainer.appendChild(star);
+            }
+        });
+        </script>
+        
+    <div id="star-container">
+
+    <!-- <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div> -->
+</div>
+    <!-- <div class="stars">
+        
         <div class="star"></div>
         <div class="star"></div>
         <div class="star"></div>
@@ -18,7 +55,7 @@
         <div class="star"></div>
         <div class="star"></div>
         <div class="star"></div>
-    </div>
+    </div> -->
     <div class="container">
         <div class="header">
             <div class="moon-container">
